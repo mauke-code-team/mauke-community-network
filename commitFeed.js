@@ -1,7 +1,7 @@
 import { Octokit, App } from "https://cdn.skypack.dev/octokit";
 // Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
 const octokit = new Octokit({
-  auth: `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`,
+  auth: `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`,
 });
 
 const { data } = await octokit.request(
