@@ -1,7 +1,7 @@
 import { Octokit, App } from "https://cdn.skypack.dev/octokit";
 // Create a personal access token at https://github.com/settings/tokens/new?scopes=repo
 const octokit = new Octokit({
-  auth: `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`,
+  auth: `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`,
 });
 
 const { data } = await octokit.request(
@@ -37,8 +37,6 @@ data.forEach((commit) => {
       `;
   feedDOM.appendChild(li);
 });
-
-// remove end of string after "2022"
 
 // Thanks to: https://bobbyhadz.com/blog/javascript-convert-timestamp-to-time-ago
 function relativeDays(timestamp) {
