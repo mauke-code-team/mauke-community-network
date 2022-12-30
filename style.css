@@ -1,82 +1,91 @@
 @font-face {
-    font-family: 'Artificial Intelligence PERSONAL USE';
-    src: url('./assets/fonts/ArtificialIntelligencePERSONALUSE-Regular.woff2') format('woff2'),
-        url('./assets/fonts/ArtificialIntelligencePERSONALUSE-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+  font-family: "Artificial Intelligence PERSONAL USE";
+  src: url("./assets/fonts/ArtificialIntelligencePERSONALUSE-Regular.woff2")
+      format("woff2"),
+    url("./assets/fonts/ArtificialIntelligencePERSONALUSE-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Roboto+Mono&display=swap");
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* height: 100vh; */
-    background: radial-gradient(circle, rgba(248,176,191,1) 0%, rgba(252,226,113,1) 48%, rgba(149,231,244,1) 100%);
-    background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 100vh; */
+  background: radial-gradient(
+    circle,
+    rgba(248, 176, 191, 1) 0%,
+    rgba(252, 226, 113, 1) 48%,
+    rgba(149, 231, 244, 1) 100%
+  );
+  background-attachment: fixed;
 }
 
 p {
-    margin: 0px;
+  margin: 0px;
 }
 
 h1.title {
-    text-align: center;
-    font-family: 'Artificial Intelligence PERSONAL USE';
-    font-size: 5rem;
-    font-weight: 400;
-    color:white;
-    /* text-shadow: 6px 6px #ccc; */
-    text-shadow: 3px 6px #222;
-    /* letter-spacing: 5px; */
+  text-align: center;
+  font-family: "Artificial Intelligence PERSONAL USE";
+  font-size: 5rem;
+  font-weight: 400;
+  color: white;
+  /* text-shadow: 6px 6px #ccc; */
+  text-shadow: 3px 6px #222;
+  /* letter-spacing: 5px; */
 }
 .mauke {
-    font-size:10rem;
+  font-size: 10rem;
 }
+
 .updates {
-    font-family: 'M PLUS Rounded 1c','Arial Narrow', Arial, sans-serif;
+  margin-top: 50px;
+  font-family: "M PLUS Rounded 1c", "Arial Narrow", Arial, sans-serif;
 }
 .github-avatar {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
 ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .commit-list-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-    padding: 5px;
-    background-color: #eee;
-    border-radius: 50px;
-    margin:10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 50px;
+  margin: 10px;
 }
 
-.commit-details{
-    margin-left: 10px;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 0.7rem;
+.commit-details {
+  margin-left: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.7rem;
 }
 
 .commit-details .tech-font {
-    /* font-family: 'Inversionz Unboxed';
+  /* font-family: 'Inversionz Unboxed';
     font-weight: normal;
     font-style: normal;
     font-size:1.2rem; */
-    color: #777;
+  color: #777;
 }
 
 .commit-details a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
