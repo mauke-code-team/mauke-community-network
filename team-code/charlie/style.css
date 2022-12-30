@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+h1 {
+    font-size: 30px;
+    color: aquamarine;
+    font-family: 'Seymour One', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&display=swap');
+h3 {
+    font-size: 40px;
+    color: aqua;
+    font-family: 'Chivo Mono', monospace;
+}
+body {
+    background-image: url("sunset.avif");
+    background-size: cover;
+}
